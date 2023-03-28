@@ -1,6 +1,4 @@
-Attribute VB_Name = "Module3"
-
-Sub Export_Master_EFT()
+Sub Export_Master_payment_sheet()
 
 Dim ws As Worksheet
 Dim RangeName As Name
