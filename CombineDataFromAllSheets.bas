@@ -1,5 +1,3 @@
-Attribute VB_Name = "Module2"
-Option Explicit
 Public Sub CombineDataFromAllSheets()
 
     Dim wksSrc As Worksheet, wksDst As Worksheet
