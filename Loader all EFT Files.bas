@@ -6,7 +6,7 @@ Dim fileName As String
 Dim Sheet As Worksheet
 
     Path = "your path\"
-    'load all .xlsx files as long as it has a name.'
+    'load all .xlsx files as long as it has a name.''load all .xlsx files if it contains name of FV60 use following coding:filename = Dir(sourceFolder & "*FV60*.xlsx")'
 fileName = Dir(Path & "*.xlsx")
 Do While fileName <> ""
     
